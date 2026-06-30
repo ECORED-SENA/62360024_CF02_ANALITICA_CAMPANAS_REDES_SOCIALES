@@ -2,7 +2,7 @@
   .curso-main-container.pb-3
     BannerInterno
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-      .titulo-principal.color-acento-contenido
+      .titulo-principal.color-acento-contenido(data-aos="flip-up")
         .titulo-principal__numero
           span 5
         h1 Interpretación de métricas en tiempo real
@@ -132,29 +132,29 @@
                   tbody
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Alcance bajo
-                      td.ajuste-border-tabla.texto-left Poca difusión de contenidos.
-                      td.ajuste-border-tabla.texto-left Segmentación limitada.
-                      td.texto-left Ajustar públicos y horarios.
+                      td.ajuste-border-tabla.texto-left Poca difusión de contenidos
+                      td.ajuste-border-tabla.texto-left Segmentación limitada
+                      td.texto-left Ajustar públicos y horarios
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold CTR alto
-                      td.ajuste-border-tabla.texto-left Alto interés del usuario.
-                      td.ajuste-border-tabla.texto-left Contenido atractivo.
-                      td.texto-left Mantener la estrategia.
+                      td.ajuste-border-tabla.texto-left Alto interés del usuario
+                      td.ajuste-border-tabla.texto-left Contenido atractiv
+                      td.texto-left Mantener la estrategia
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Baja conversión
-                      td.ajuste-border-tabla.texto-left Escasos resultados comerciales.
-                      td.ajuste-border-tabla.texto-left Llamado a la acción poco efectivo.
-                      td.texto-left Optimizar la página de destino y los mensajes.
+                      td.ajuste-border-tabla.texto-left Escasos resultados comerciales
+                      td.ajuste-border-tabla.texto-left Llamado a la acción poco efectivo
+                      td.texto-left Optimizar la página de destino y los mensajes
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold Baja retención
-                      td.ajuste-border-tabla.texto-left Los usuarios abandonan el contenido.
-                      td.ajuste-border-tabla.texto-left Contenido poco dinámico.
-                      td.texto-left Fortalecer formatos audiovisuales.
+                      td.ajuste-border-tabla.texto-left Los usuarios abandonan el contenido
+                      td.ajuste-border-tabla.texto-left Contenido poco dinámico
+                      td.texto-left Fortalecer formatos audiovisuales
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Alta interacción
-                      td.ajuste-border-tabla.texto-left Participación activa de usuarios.
-                      td.ajuste-border-tabla.texto-left Contenido relevante.
-                      td.texto-left Incrementar publicaciones similares.
+                      td.ajuste-border-tabla.texto-left Participación activa de usuarios
+                      td.ajuste-border-tabla.texto-left Contenido relevante
+                      td.texto-left Incrementar publicaciones similares
               .box___style_3(data-aos="flip-up")
                 .row.align-items-center
                   .col-xl-auto.col-md-2.mb-3.mb-lg-0.mb-md-0(data-aos="fade-right")
@@ -252,7 +252,7 @@
           .col-xl-auto.order-1.order-lg-2
             figure
               img(src='@/assets/curso/temas/t5/img22.png', alt='').m-auto
-      p.mb-5 A continuación, se presenta algunos comportamientos frecuentes y su posible interpretación.
+      p.mb-5 A continuación, se presentan algunos comportamientos frecuentes y su posible interpretación.
       .row.align-items-center.mb-5
         .col-xl-auto(data-aos="fade-right")
           figure.d-none.d-xl-block
@@ -382,7 +382,7 @@
 </template>
 
 <script>
-import audio2 from '@/assets/componentes/audios/audio-ej.mp3'
+import audio2 from '@/assets/componentes/audios/Monitoreo_campanas_digitales.mp3'
 export default {
   name: 'Tema5',
   data: () => ({

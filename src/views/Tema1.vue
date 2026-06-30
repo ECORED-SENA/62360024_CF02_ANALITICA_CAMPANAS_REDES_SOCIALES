@@ -2,14 +2,14 @@
   .curso-main-container.pb-3
     BannerInterno
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-      .titulo-principal.color-acento-contenido
+      .titulo-principal.color-acento-contenido(data-aos="flip-up")
         .titulo-principal__numero
           span 1
         h1 Optimización de campañas digitales
       p.mb-5 A continuación, se presenta un video sobre la optimización de campañas digitales, abordando los procesos de análisis, evaluación y mejora continua que permiten fortalecer el rendimiento de las estrategias implementadas en redes sociales y contribuir al cumplimiento de los objetivos comerciales de las organizaciones.
       figure(data-aos="zoom-in").mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/F9bYNApNHX0" title="Optimización de campañas digitales" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption.fit___figcaption-video #[b Video]. Optimización de campañas digitales
       .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
         .bloque-texto-g__img(

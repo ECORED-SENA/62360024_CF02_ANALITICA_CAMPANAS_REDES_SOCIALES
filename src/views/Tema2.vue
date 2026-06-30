@@ -2,7 +2,7 @@
   .curso-main-container.pb-3
     BannerInterno
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-      .titulo-principal.color-acento-contenido
+      .titulo-principal.color-acento-contenido(data-aos="flip-up")
         .titulo-principal__numero
           span 2
         h1 Mejora continua en redes sociales
@@ -92,24 +92,24 @@
                   tbody
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Bajo alcance
-                      td.ajuste-border-tabla.texto-left Segmentación limitada.
-                      td.texto-left Ajustar públicos y horarios.
+                      td.ajuste-border-tabla.texto-left Segmentación limitada
+                      td.texto-left Ajustar públicos y horarios
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold Baja interacción
-                      td.ajuste-border-tabla.texto-left Contenido poco atractivo.
-                      td.texto-left Mejorar formatos y diseño visual.
+                      td.ajuste-border-tabla.texto-left Contenido poco atractivo
+                      td.texto-left Mejorar formatos y diseño visual
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Bajo CTR
-                      td.ajuste-border-tabla.texto-left Llamados a la acción deficientes.
-                      td.texto-left Optimizar mensajes publicitarios.
+                      td.ajuste-border-tabla.texto-left Llamados a la acción deficientes
+                      td.texto-left Optimizar mensajes publicitarios
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold Baja conversión
-                      td.ajuste-border-tabla.texto-left Estrategia comercial poco efectiva.
-                      td.texto-left Fortalecer procesos de conversión.
+                      td.ajuste-border-tabla.texto-left Estrategia comercial poco efectiva
+                      td.texto-left Fortalecer procesos de conversión
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Pérdida de seguidores
-                      td.ajuste-border-tabla.texto-left Desinterés de las audiencias.
-                      td.texto-left Adaptar contenidos a tendencias digitales.
+                      td.ajuste-border-tabla.texto-left Desinterés de las audiencias
+                      td.texto-left Adaptar contenidos a tendencias digitales
           p.mb-0 La adecuada identificación de oportunidades de mejora permite fortalecer las campañas digitales y optimizar continuamente el rendimiento de las estrategias implementadas en redes sociales.
           Separador
           #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")

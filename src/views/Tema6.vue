@@ -2,7 +2,7 @@
   .curso-main-container.pb-3
     BannerInterno
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-      .titulo-principal.color-acento-contenido
+      .titulo-principal.color-acento-contenido(data-aos="flip-up")
         .titulo-principal__numero
           span 6
         h1 Tendencias y patrones en campañas digitales
@@ -225,7 +225,7 @@
           p.mb-0 #[b Por ejemplo], los resultados obtenidos pueden indicar mayores niveles de interacción y retención en contenidos audiovisuales. Esta información permite fortalecer el uso de este tipo de publicaciones dentro de la estrategia digital.
       .bg___carrusel
         .px-5
-          p.mb-5 A continuación, se presenta algunas aplicaciones frecuentes derivadas del análisis de tendencias y patrones digitales.
+          p.mb-5 A continuación, se presentan algunas aplicaciones frecuentes derivadas del análisis de tendencias y patrones digitales.
           .row.align-items-center.mb-5
             .col-xl-4(data-aos="fade-right")
               figure.d-none.d-xl-block
